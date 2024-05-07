@@ -19,9 +19,3 @@ aws cloudfront delete-distribution \
 #delete certificate
 aws acm delete-certificate \
  --certificate-arn "arn:aws:acm:us-east-1:413677591682:certificate/adc156fe-ef95-42ac-ad38-698830d7b44f"
-
-
-CLOUDFRONT_DIST_ID="$(aws cloudfront list-distributions \
-  --query "DistributionList.Items[*].Id" \
-  --output text)"
-echo $CLOUDFRONT_DIST_ID
