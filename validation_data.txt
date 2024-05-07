@@ -1,0 +1,2 @@
+VALIDATION_NAME=_ea271c1f20c2721cd50f712290766603.s3cdn.mmuyideen.xyz.
+VALIDATION_VALUE=_64fb4e3ff4ec401631950c4cdb2ef477.mhbtsbpdnt.acm-validations.aws.
